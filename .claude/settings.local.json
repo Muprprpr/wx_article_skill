@@ -6,7 +6,11 @@
       "Bash(tree:*)",
       "Skill(ui-ux-pro-max)",
       "Bash(findstr:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(powershell:*)",
+      "Bash(curl:*)",
+      "Bash(gh repo view:*)",
+      "Bash(ren:*)"
     ]
   }
 }

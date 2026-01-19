@@ -1,5 +1,6 @@
 ---
-description: 将 Markdown 转换为微信公众号兼容的 HTML，支持 26+ 主题和图片自动提取
+name: wx-article-skill
+description: "将 Markdown 转换为微信公众号兼容的 HTML，支持 26+ 主题和图片自动提取。适用于公众号运营、内容创作者和技术文档编写。"
 parameters:
   - name: theme
     description: 主题名称（默认: vibelight）
@@ -85,13 +86,13 @@ parameters:
 
 ```bash
 # 基本转换
-python converter.py input.md -o output.html
+python scripts/converter.py input.md -o output.html
 
 # 指定主题
-python converter.py input.md -o output.html -t {theme}
+python scripts/converter.py input.md -o output.html -t {theme}
 
 # 批量生成所有主题
-python generate_all_themes.py
+python scripts/generate_all_themes.py
 ```
 
 ### 步骤 4：输出结果
@@ -106,17 +107,17 @@ python generate_all_themes.py
 
 **你的响应**：
 1. 读取 `article.md`
-2. 运行 `python converter.py article.md -o article_finance.html -t finance-professional`
+2. 运行 `python scripts/converter.py article.md -o article_finance.html -t finance-professional`
 3. 告知用户：HTML 已生成到 `article_finance.html`，图片已提取到 `images/` 目录
 
 **用户**：为所有主题生成预览
 
 **你的响应**：
-1. 运行 `python generate_all_themes.py`
-2. 告知用户：已生成 26 个主题的预览文件到 `test_output/all_themes/` 目录
+1. 运行 `python scripts/generate_all_themes.py`
+2. 告知用户：已生成 26 个主题的预览文件到 `previews/` 目录
 
 ## 注意事项
 
-- 确保 `converter.py` 和 `themes/` 目录在项目根目录
+- 确保 `scripts/converter.py` 和 `themes/` 目录在技能目录下
 - 图片路径会自动检测 Obsidian 库
 - 生成的 HTML 可直接复制到微信公众号后台

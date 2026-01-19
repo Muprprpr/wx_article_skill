@@ -1,6 +1,6 @@
 {
-  "name": "wx_article_skill",
-  "id": "wx_article_skill",
+  "name": "wx-article-skill",
+  "id": "wx-article-skill",
   "owner": {
     "name": "Muprprpr"
   },
@@ -11,9 +11,9 @@
   },
   "plugins": [
     {
-      "name": "wx_article_skill",
+      "name": "wx-article-skill",
       "source": "./",
-      "description": "将 Markdown 转换为微信公众号兼容的 HTML，支持 26+ 主题和图片自动提取",
+      "description": "将 Markdown 转换为微信公众号兼容的 HTML，支持 26+ 主题和图片自动提取。适用于公众号运营、内容创作者和技术文档编写。",
       "version": "2.0.1",
       "author": {
         "name": "Muprprpr"
@@ -30,7 +30,8 @@
         "微信",
         "文档转换",
         "content-creation",
-        "chinese"
+        "chinese",
+        "markdown-to-html"
       ],
       "category": "productivity",
       "strict": false
