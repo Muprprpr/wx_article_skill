@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "wx_article_skill",
-      "source": "../skill.md",
+      "source": "./",
       "description": "将 Markdown 转换为微信公众号兼容的 HTML，支持 26+ 主题和图片自动提取",
       "version": "2.0.1",
       "author": {
