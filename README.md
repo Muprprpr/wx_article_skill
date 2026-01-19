@@ -22,13 +22,15 @@
 
 ## 安装
 
+**请确保安装了python3**
+
 ### 方式一：通过 Claude Marketplace（推荐）
 
 在 Claude Code 中执行：
 
 ```bash
 /plugin marketplace add Muprprpr/wx_article_skill
-/plugin install skill@wx_article_skill
+/plugin install wx-article-skill@wx_article_skill
 ```
 
 ### 方式二：克隆项目
@@ -73,9 +75,17 @@ python converter.py --list-themes
 python generate_all_themes.py
 ```
 
+### 将内容复制到公众号
+
+最终你只需要用浏览器打开html文件，全选复制，粘贴到微信公众号编辑中。
+
+所有的格式 & 装饰都将粘贴进入微信公众号中。
+
 ---
 
 ## 支持的主题
+
+所有的主题均在_skills/wx-artical-skill/previews_中预览，均为html格式
 
 ### 金融类
 
