@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "Web3 Blockchain",
+    "version": "2.0.0",
+    "description": "区块链风格，深蓝金色，适合DeFi、NFT、Web3教程"
+  },
+  "base": {
+    "container": "background-color: #0d1117; color: #c9d1d9; font-family: 'SF Mono', 'JetBrains Mono', monospace; font-size: 14px; line-height: 1.7; padding: 16px;",
+    "link": "color: #58a6ff; text-decoration: none; border-bottom: 1px solid #58a6ff;"
+  },
+  "components": {
+    "header_window": {
+      "style": "background: linear-gradient(90deg, #161b22, #21262d); border: 1px solid #30363d; border-radius: 6px 6px 0 0; padding: 12px 20px; margin-bottom: 20px; border-bottom: 2px solid #f7931a;",
+      "dots": [],
+      "title_style": "color: #f7931a; font-size: 12px; font-weight: 600; letter-spacing: 1px;"
+    },
+    "headings": {
+      "h2": "color: #f7931a; font-size: 18px; font-weight: 600; margin: 24px 0 14px; padding-left: 14px; border-left: 4px solid #f7931a;",
+      "h3": "color: #58a6ff; font-size: 15px; font-weight: 600; margin: 18px 0 10px; color: #7ee787;",
+      "h1": "color: #f7931a; font-size: 18px; font-weight: 600; margin: 24px 0 14px; padding-left: 14px; border-left: 4px solid #f7931a;",
+      "h4": "font-size: 15px; font-weight: bold; margin-bottom: 8px; color: #57606a; margin-top: 20px;"
+    },
+    "text": {
+      "paragraph": "margin-bottom: 14px;",
+      "code_inline": "background-color: #161b22; color: #79c0ff; padding: 2px 6px; border-radius: 3px; font-size: 90%; border: 1px solid #30363d;",
+      "strong": "color: #f7931a; font-weight: 600;",
+      "italic": "font-style: italic;",
+      "strikethrough": "text-decoration: line-through; opacity: 0.7;",
+      "highlight": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;",
+      "mark": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;"
+    },
+    "blocks": {
+      "code_block": "background-color: #161b22; color: #c9d1d9; padding: 16px; border-radius: 6px; margin: 16px 0; font-size: 12px; border: 1px solid #30363d;",
+      "quote_tip": "background-color: #1c2b1c; border: 1px solid #238636; color: #3fb950; padding: 12px 16px; margin: 16px 0; border-radius: 6px;",
+      "quote_warning": "background-color: #2c1b1b; border: 1px solid #f85149; color: #ff7b72; padding: 12px 16px; margin: 16px 0; border-radius: 6px;",
+      "hr": "border: 0; border-top: 1px solid #30363d; margin: 28px 0;",
+      "quote_note": "background-color: #e8f4fd; border-left: 4px solid #0969da; color: #0c3d6a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_info": "background-color: #def7ff; border-left: 4px solid #58a6ff; color: #0c447a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_default": "background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "details": "background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 12px; margin-bottom: 15px;",
+      "summary": "font-weight: bold; cursor: pointer; color: #0969da; margin-bottom: 8px;"
+    },
+    "media": {
+      "image_placeholder": "background-color: #161b22; border: 1px dashed #30363d; color: #7ee787; padding: 20px; text-align: center; margin: 16px 0; border-radius: 6px; font-size: 12px;",
+      "image": "max-width: 100%; height: auto; display: block; margin: 15px 0; border-radius: 4px;",
+      "video": "width: 100%; border-radius: 6px; margin: 15px 0;"
+    },
+    "footer": {
+      "style": "margin-top: 32px; padding-top: 16px; border-top: 1px solid #30363d; text-align: center;",
+      "text": "color: #7ee787; font-size: 11px;"
+    },
+    "lists": {
+      "ul": "margin-bottom: 15px; padding-left: 20px;",
+      "ol": "margin-bottom: 15px; padding-left: 20px;",
+      "li": "margin-bottom: 6px;",
+      "task_checked": "color: #22a627; text-decoration: line-through;",
+      "task_unchecked": "color: #24292e;"
+    },
+    "math": {
+      "inline": "background-color: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-family: 'Times New Roman', serif; font-style: italic;",
+      "block": "background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;"
+    }
+  }
+}

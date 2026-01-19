@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(tree:*)",
+      "Skill(ui-ux-pro-max)",
+      "Bash(findstr:*)",
+      "WebSearch"
+    ]
+  }
+}

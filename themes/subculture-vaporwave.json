@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "Subculture Vaporwave",
+    "version": "2.0.0",
+    "description": "蒸汽波风格，紫粉渐变，适合复古未来、流行文化"
+  },
+  "base": {
+    "container": "background: linear-gradient(180deg, #1a0b2e 0%, #2d1b4e 100%); color: #ff9ecd; font-family: 'Courier New', monospace; font-size: 14px; line-height: 1.7; padding: 20px;",
+    "link": "color: #00ffff; text-decoration: none; text-shadow: 2px 2px 0 #ff00ff;"
+  },
+  "components": {
+    "header_window": {
+      "style": "background: linear-gradient(90deg, #ff00ff, #00ffff); border: 4px solid #ffffff; border-radius: 0; padding: 8px 16px; margin-bottom: 20px;",
+      "dots": [],
+      "title_style": "color: #1a0b2e; font-size: 10px; font-weight: bold; letter-spacing: 4px; text-transform: uppercase;"
+    },
+    "headings": {
+      "h2": "background: linear-gradient(90deg, #ff00ff, #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 28px; font-weight: 900; margin: 24px 0 14px; text-transform: uppercase; letter-spacing: 4px; text-shadow: 0 0 20px #ff00ff80;",
+      "h3": "color: #00ffff; font-size: 16px; font-weight: bold; margin: 18px 0 10px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0 0 10px #00ffff60;",
+      "h1": "background: linear-gradient(90deg, #ff00ff, #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 28px; font-weight: 900; margin: 24px 0 14px; text-transform: uppercase; letter-spacing: 4px; text-shadow: 0 0 20px #ff00ff80;",
+      "h4": "font-size: 15px; font-weight: bold; margin-bottom: 8px; color: #57606a; margin-top: 20px;"
+    },
+    "text": {
+      "paragraph": "margin-bottom: 14px;",
+      "code_inline": "background-color: #ff00ff30; color: #00ffff; padding: 2px 6px; border: 1px solid #ff00ff; font-size: 90%;",
+      "strong": "color: #ff00ff; font-weight: bold; text-shadow: 2px 2px 0 #00ffff;",
+      "italic": "font-style: italic;",
+      "strikethrough": "text-decoration: line-through; opacity: 0.7;",
+      "highlight": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;",
+      "mark": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;"
+    },
+    "blocks": {
+      "code_block": "background-color: #0d0d1a; color: #00ffff; padding: 16px; border-radius: 0; margin: 16px 0; font-size: 12px; border: 2px solid #ff00ff; box-shadow: 4px 4px 0 #00ffff;",
+      "quote_tip": "background: linear-gradient(90deg, #ff00ff20, #00ffff20); border: 2px solid #ff00ff; color: #ff9ecd; padding: 12px 16px; margin: 16px 0;",
+      "quote_warning": "background: linear-gradient(90deg, #00ffff20, #ff00ff20); border: 2px solid #00ffff; color: #00ffff; padding: 12px 16px; margin: 16px 0;",
+      "hr": "border: 0; height: 2px; background: linear-gradient(90deg, transparent, #ff00ff, #00ffff, transparent); margin: 28px 0;",
+      "quote_note": "background-color: #e8f4fd; border-left: 4px solid #0969da; color: #0c3d6a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_info": "background-color: #def7ff; border-left: 4px solid #58a6ff; color: #0c447a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_default": "background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "details": "background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 12px; margin-bottom: 15px;",
+      "summary": "font-weight: bold; cursor: pointer; color: #0969da; margin-bottom: 8px;"
+    },
+    "media": {
+      "image_placeholder": "background: linear-gradient(45deg, #ff00ff20, #00ffff20); border: 4px dashed #ff00ff; color: #ff9ecd; padding: 24px; text-align: center; margin: 18px 0;",
+      "image": "max-width: 100%; height: auto; display: block; margin: 15px 0; border-radius: 4px;",
+      "video": "width: 100%; border-radius: 6px; margin: 15px 0;"
+    },
+    "footer": {
+      "style": "margin-top: 35px; padding: 16px; background: linear-gradient(90deg, #ff00ff, #00ffff); text-align: center;",
+      "text": "color: #1a0b2e; font-size: 10px; font-weight: bold; letter-spacing: 3px; text-transform: uppercase;"
+    },
+    "lists": {
+      "ul": "margin-bottom: 15px; padding-left: 20px;",
+      "ol": "margin-bottom: 15px; padding-left: 20px;",
+      "li": "margin-bottom: 6px;",
+      "task_checked": "color: #22a627; text-decoration: line-through;",
+      "task_unchecked": "color: #24292e;"
+    },
+    "math": {
+      "inline": "background-color: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-family: 'Times New Roman', serif; font-style: italic;",
+      "block": "background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;"
+    }
+  }
+}

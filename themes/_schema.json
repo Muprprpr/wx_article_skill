@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "微信文章主题配置规范",
+  "description": "定义微信文章 HTML 生成器的完整主题配置结构",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "description": "主题元信息",
+      "properties": {
+        "name": { "type": "string", "description": "主题名称" },
+        "version": { "type": "string", "description": "版本号" },
+        "description": { "type": "string", "description": "主题描述" }
+      }
+    },
+    "base": {
+      "type": "object",
+      "description": "基础样式",
+      "properties": {
+        "container": { "type": "string", "description": "主容器样式" },
+        "link": { "type": "string", "description": "链接样式" }
+      },
+      "required": ["container", "link"]
+    },
+    "components": {
+      "type": "object",
+      "description": "组件样式",
+      "properties": {
+        "header_window": {
+          "type": "object",
+          "description": "顶部模拟窗口栏",
+          "properties": {
+            "style": { "type": "string", "description": "容器样式" },
+            "dots": { "type": "array", "description": "三个圆点按钮样式", "items": { "type": "string" } },
+            "title_style": { "type": "string", "description": "标题文字样式" }
+          },
+          "required": ["style", "title_style"]
+        },
+        "headings": {
+          "type": "object",
+          "description": "标题样式",
+          "properties": {
+            "h1": { "type": "string", "description": "H1 样式" },
+            "h2": { "type": "string", "description": "H2 样式" },
+            "h3": { "type": "string", "description": "H3 样式" },
+            "h4": { "type": "string", "description": "H4 样式" }
+          },
+          "required": ["h2", "h3"]
+        },
+        "text": {
+          "type": "object",
+          "description": "文本样式",
+          "properties": {
+            "paragraph": { "type": "string", "description": "段落样式" },
+            "code_inline": { "type": "string", "description": "行内代码样式" },
+            "strong": { "type": "string", "description": "加粗样式" },
+            "italic": { "type": "string", "description": "斜体样式" },
+            "strikethrough": { "type": "string", "description": "删除线样式" },
+            "highlight": { "type": "string", "description": "高亮/标记样式" },
+            "mark": { "type": "string", "description": "背景高亮样式 ==highlight" }
+          },
+          "required": ["paragraph", "code_inline", "strong"]
+        },
+        "blocks": {
+          "type": "object",
+          "description": "块级元素样式",
+          "properties": {
+            "code_block": { "type": "string", "description": "代码块样式" },
+            "quote_tip": { "type": "string", "description": "提示引用块样式" },
+            "quote_warning": { "type": "string", "description": "警告引用块样式" },
+            "quote_note": { "type": "string", "description": "笔记引用块样式" },
+            "quote_info": { "type": "string", "description": "信息引用块样式" },
+            "quote_default": { "type": "string", "description": "默认引用块样式" },
+            "hr": { "type": "string", "description": "水平分隔线样式" },
+            "details": { "type": "string", "description": "折叠块样式" },
+            "summary": { "type": "string", "description": "折叠块标题样式" }
+          },
+          "required": ["code_block", "quote_tip", "quote_warning", "hr"]
+        },
+        "lists": {
+          "type": "object",
+          "description": "列表样式",
+          "properties": {
+            "ul": { "type": "string", "description": "无序列表容器样式" },
+            "ol": { "type": "string", "description": "有序列表容器样式" },
+            "li": { "type": "string", "description": "列表项样式" },
+            "task_checked": { "type": "string", "description": "已完成任务样式" },
+            "task_unchecked": { "type": "string", "description": "未完成任务样式" }
+          },
+          "required": ["ul", "ol", "li"]
+        },
+        "media": {
+          "type": "object",
+          "description": "媒体元素样式",
+          "properties": {
+            "image": { "type": "string", "description": "图片样式" },
+            "image_placeholder": { "type": "string", "description": "图片占位符样式" },
+            "video": { "type": "string", "description": "视频样式" }
+          },
+          "required": ["image"]
+        },
+        "math": {
+          "type": "object",
+          "description": "数学公式样式",
+          "properties": {
+            "inline": { "type": "string", "description": "行内公式样式" },
+            "block": { "type": "string", "description": "块级公式样式" }
+          },
+          "required": ["inline", "block"]
+        },
+        "footer": {
+          "type": "object",
+          "description": "页脚样式",
+          "properties": {
+            "style": { "type": "string", "description": "容器样式" },
+            "text": { "type": "string", "description": "文字样式" }
+          },
+          "required": ["style", "text"]
+        }
+      },
+      "required": ["header_window", "headings", "text", "blocks", "lists", "media", "math", "footer"]
+    }
+  },
+  "required": ["meta", "base", "components"]
+}

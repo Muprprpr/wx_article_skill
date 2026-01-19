@@ -1,0 +1,142 @@
+<section id="nice" style="background-color: #ffffff; color: #262626; font-family: 'SF Pro Display', -apple-system, sans-serif; font-size: 15px; line-height: 1.7; padding: 16px;">
+<div style="background-color: #f0f0f0; border-bottom: 3px solid #e53935; padding: 10px 16px; margin-bottom: 20px; display: flex; align-items: center; justify-content: space-between;">
+
+<span style="color: #262626; font-size: 12px; font-weight: 600;">markdown.md</span>
+</div>
+
+<p style="margin-bottom: 14px;"># 一级标题 H1</p>
+<p style="margin-bottom: 14px;">这是一段普通文本，展示基本的段落样式。这里包含了<strong style="color: #e53935; font-weight: 600;">加粗文字</strong>和<span style="font-style: italic;">斜体文字</span>，还有<span style="text-decoration: line-through; opacity: 0.7;">删除线文字</span>和<span style="background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;">高亮文字</span>。同时也包含<code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">行内代码</code>示例。</p>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">二级标题 H2</h2>
+<p style="margin-bottom: 14px;">这是二级标题下的段落内容。</p>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">三级标题 H3</h3>
+<p style="margin-bottom: 14px;">这是三级标题下的段落内容。</p>
+<h4 style="font-size: 15px; font-weight: bold; margin-bottom: 8px; color: #57606a; margin-top: 20px;">四级标题 H4</h4>
+<p style="margin-bottom: 14px;">这是四级标题下的段落内容。</p>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">文本样式完整演示</h2>
+<p style="margin-bottom: 14px;">本节展示所有支持的行内样式：</p>
+<ul style="margin-bottom: 15px; padding-left: 20px;">
+<li style="margin-bottom: 6px;"><strong style="color: #e53935; font-weight: 600;">加粗文本</strong>：使用双星号包围</li>
+<li style="margin-bottom: 6px;"><span style="font-style: italic;">斜体文本</span>：使用单星号包围</li>
+<li style="margin-bottom: 6px;"><span style="text-decoration: line-through; opacity: 0.7;">删除线文本</span>：使用双波浪线包围</li>
+<li style="margin-bottom: 6px;"><span style="background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;">高亮文本</span>：使用双等号包围</li>
+<li style="margin-bottom: 6px;"><code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">行内代码</code>：使用反引号包围</li>
+<li style="margin-bottom: 6px;"><strong style="color: #e53935; font-weight: 600;">组合样式</strong>：可以同时使用**加粗和<span style="font-style: italic;">斜体</span>混合**</li>
+</ul>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">代码块演示</h2>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">Python 代码</h3>
+<pre style="background-color: #1e1e1e; color: #00ff00; padding: 14px; border-radius: 4px; margin: 14px 0; font-size: 12px; font-family: 'JetBrains Mono', monospace; border-left: 3px solid #43a047;"><code>def hello_world():
+    """打印 Hello World"""
+    print("Hello, World!")
+    return True
+
+class Calculator:
+    def add(self, a, b):
+        return a + b</code></pre>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">JavaScript 代码</h3>
+<pre style="background-color: #1e1e1e; color: #00ff00; padding: 14px; border-radius: 4px; margin: 14px 0; font-size: 12px; font-family: 'JetBrains Mono', monospace; border-left: 3px solid #43a047;"><code>// JavaScript 示例
+const greeting = "Hello";
+console.log(greeting);
+
+function add(a, b) {
+    return a + b;
+}</code></pre>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">Bash 代码</h3>
+<pre style="background-color: #1e1e1e; color: #00ff00; padding: 14px; border-radius: 4px; margin: 14px 0; font-size: 12px; font-family: 'JetBrains Mono', monospace; border-left: 3px solid #43a047;"><code>#!/bin/bash
+echo "Hello, World!"
+ls -la
+git status</code></pre>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">无语言标记代码块</h3>
+<pre style="background-color: #1e1e1e; color: #00ff00; padding: 14px; border-radius: 4px; margin: 14px 0; font-size: 12px; font-family: 'JetBrains Mono', monospace; border-left: 3px solid #43a047;"><code>这是没有语言标记的代码块
+使用纯文本样式渲染</code></pre>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">引用块完整演示</h2>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">提示引用块</h3>
+<blockquote style="background-color: #e8f5e9; border-left: 4px solid #43a047; color: #2e7d32; padding: 10px 14px; margin: 14px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">这是一个提示引用块，用于提供有用的建议和小技巧。</blockquote>
+<blockquote style="background-color: #e8f5e9; border-left: 4px solid #43a047; color: #2e7d32; padding: 10px 14px; margin: 14px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">简写形式的提示引用块。</blockquote>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">警告引用块</h3>
+<blockquote style="background-color: #ffebee; border-left: 4px solid #e53935; color: #c62828; padding: 10px 14px; margin: 14px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">这是一个警告引用块，用于提醒用户注意潜在问题。</blockquote>
+<blockquote style="background-color: #ffebee; border-left: 4px solid #e53935; color: #c62828; padding: 10px 14px; margin: 14px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">这是一个谨慎引用块，表示需要小心操作。</blockquote>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">笔记引用块</h3>
+<blockquote style="background-color: #e8f4fd; border-left: 4px solid #0969da; color: #0c3d6a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">这是一个笔记引用块，用于记录额外的信息和备注。</blockquote>
+<blockquote style="background-color: #e8f4fd; border-left: 4px solid #0969da; color: #0c3d6a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">简写形式的笔记引用块。</blockquote>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">信息引用块</h3>
+<blockquote style="background-color: #def7ff; border-left: 4px solid #58a6ff; color: #0c447a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">这是一个信息引用块，用于提供补充说明。</blockquote>
+<blockquote style="background-color: #def7ff; border-left: 4px solid #58a6ff; color: #0c447a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">简写形式的信息引用块。</blockquote>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">默认引用块</h3>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">这是普通的引用块样式，没有特定类型标记。</blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">可以有多行内容。</blockquote>
+<p style="margin-bottom: 14px;">></p>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">甚至可以包含<strong style="color: #e53935; font-weight: 600;">加粗</strong>和<code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">代码</code>等行内样式。</blockquote>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">列表完整演示</h2>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">无序列表</h3>
+<ul style="margin-bottom: 15px; padding-left: 20px;">
+<li style="margin-bottom: 6px;">第一项</li>
+<li style="margin-bottom: 6px;">第二项</li>
+<li style="margin-bottom: 6px;">嵌套无序列表项 A</li>
+<li style="margin-bottom: 6px;">嵌套无序列表项 B</li>
+<li style="margin-bottom: 6px;">深层嵌套项</li>
+<li style="margin-bottom: 6px;">返回上层</li>
+<li style="margin-bottom: 6px;">第三项</li>
+<li style="margin-bottom: 6px;">第四项，包含<code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">行内代码</code></li>
+</ul>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">有序列表</h3>
+<ol style="margin-bottom: 15px; padding-left: 20px;">
+<li style="margin-bottom: 6px;">第一步操作</li>
+<li style="margin-bottom: 6px;">第二步操作</li>
+<li style="margin-bottom: 6px;">第三步操作</li>
+<li style="margin-bottom: 6px;">子步骤 A</li>
+<li style="margin-bottom: 6px;">子步骤 B</li>
+<li style="margin-bottom: 6px;">第四步操作</li>
+</ol>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">任务列表</h3>
+<ul style="margin-bottom: 15px; padding-left: 20px;">
+<li style="margin-bottom: 6px;"><span style="color: #24292e;">&#9724;</span> 未完成的任务 A</li>
+<li style="margin-bottom: 6px;"><span style="color: #22a627; text-decoration: line-through;">&#10003;</span> 已完成的任务 B</li>
+<li style="margin-bottom: 6px;"><span style="color: #24292e;">&#9724;</span> 另一个未完成任务</li>
+<li style="margin-bottom: 6px;"><span style="color: #22a627; text-decoration: line-through;">&#10003;</span> 带有<strong style="color: #e53935; font-weight: 600;">加粗</strong>的已完成任务</li>
+<li style="margin-bottom: 6px;"><span style="color: #24292e;">&#9724;</span> 带有<code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">代码</code>的未完成任务</li>
+</ul>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">数学公式演示</h2>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">行内公式</h3>
+<p style="margin-bottom: 14px;">质能方程是 <span style="background-color: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-family: 'Times New Roman', serif; font-style: italic;">E = mc^2</span>，这是爱因斯坦提出的著名公式。</p>
+<p style="margin-bottom: 14px;">勾股定理可以表示为 <span style="background-color: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-family: 'Times New Roman', serif; font-style: italic;">a^2 + b^2 = c^2</span>。</p>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">块级公式</h3>
+<p style="margin-bottom: 14px;"><div style="background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;">f(x) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty} e^{-t^2/2} dt</div></p>
+<p style="margin-bottom: 14px;"><div style="background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;">\sum_{i=1}^{n} i = \frac{n(n+1)}{2}</div></p>
+<p style="margin-bottom: 14px;"><div style="background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;">x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</div></p>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">其他元素演示</h2>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">水平分隔线</h3>
+<hr style="border: 0; border-top: 2px solid #f0f0f0; margin: 25px 0;">
+<p style="margin-bottom: 14px;">上面是一条水平分隔线。</p>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">链接示例</h3>
+<p style="margin-bottom: 14px;">访问 <a href="https://github.com" style="color: #0066cc; text-decoration: none;">GitHub</a> 了解更多信息。</p>
+<p style="margin-bottom: 14px;">这是一个 <a href="https://example.com "鼠标悬停显示标题"" style="color: #0066cc; text-decoration: none;">带标题的链接</a>。</p>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">图片示例</h3>
+<section style="background-color: #fafafa; border: 1px dashed #cccccc; color: #999999; padding: 18px; text-align: center; margin: 14px 0; font-size: 12px;">[Image: 示例图片占位符]</section>
+<h3 style="color: #e53935; font-size: 15px; font-weight: 600; margin: 18px 0 10px; display: flex; align-items: center;">折叠块</h3>
+<details style="background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 12px; margin-bottom: 15px;">
+<summary style="font-weight: bold; cursor: pointer; color: #0969da; margin-bottom: 8px;">点击展开：这是什么？</summary>
+<p style="margin-bottom: 14px;">这是折叠块的隐藏内容，点击标题后才会显示。可以包含多行内容，甚至其他 markdown 元素。</p>
+<p style="margin-bottom: 14px;">比如这里有个<strong style="color: #e53935; font-weight: 600;">加粗文字</strong>和<code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">代码</code>。</p>
+</details>
+<details style="background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 12px; margin-bottom: 15px;">
+<summary style="font-weight: bold; cursor: pointer; color: #0969da; margin-bottom: 8px;">点击展开：代码示例</summary>
+<pre style="background-color: #1e1e1e; color: #00ff00; padding: 14px; border-radius: 4px; margin: 14px 0; font-size: 12px; font-family: 'JetBrains Mono', monospace; border-left: 3px solid #43a047;"><code>def hidden_function():
+    return "这是隐藏在折叠块中的代码"</code></pre>
+</details>
+<h2 style="background-color: #262626; color: #ffffff; padding: 10px 16px; font-size: 16px; font-weight: 600; margin: 20px 0 12px;">混合样式测试</h2>
+<p style="margin-bottom: 14px;">这是一个综合测试段落，包含<strong style="color: #e53935; font-weight: 600;">加粗</strong>、<span style="font-style: italic;">斜体</span>、<span style="text-decoration: line-through; opacity: 0.7;">删除线</span>、<span style="background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;">高亮</span>和<code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">行内代码</code>等各种样式的<strong style="color: #e53935; font-weight: 600;">组合</strong>使用效果。</p>
+<blockquote style="background-color: #e8f5e9; border-left: 4px solid #43a047; color: #2e7d32; padding: 10px 14px; margin: 14px 0;"></blockquote>
+<blockquote style="background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">引用块中也可以使用各种<strong style="color: #e53935; font-weight: 600;">样式</strong>，比如<span style="font-style: italic;">斜体</span>、<span style="background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;">高亮</span>和<code style="background-color: #f5f5f5; color: #e53935; padding: 2px 5px; border-radius: 2px; font-family: monospace; font-weight: 600;">代码</code>。</blockquote>
+
+<div style="margin-top: 30px; padding-top: 15px; border-top: 1px solid #e0e0e0; text-align: center; background-color: #f9f9f9; padding: 15px;">
+<p style="color: #666666; font-size: 11px;">_壹五_ @ AI Vibe Coding</p>
+</div>
+</section>

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "Emotion Serene",
+    "version": "2.0.0",
+    "description": "宁静情感风格，淡紫配色，适合治愈系文章、深夜心语"
+  },
+  "base": {
+    "container": "background-color: #f8f7fc; color: #3d3a5c; font-family: 'PingFang SC', 'Hiragino Sans GB', sans-serif; font-size: 15px; line-height: 2; padding: 26px;",
+    "link": "color: #7c6fd6; text-decoration: none;"
+  },
+  "components": {
+    "header_window": {
+      "style": "background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 0 0 20px 20px; padding: 14px 24px; margin-bottom: 30px; opacity: 0.9;",
+      "dots": [],
+      "title_style": "color: #ffffff; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;"
+    },
+    "headings": {
+      "h2": "color: #5a52a5; font-size: 21px; font-weight: 500; margin: 30px 0 18px; text-align: center; padding-bottom: 12px; border-bottom: 1px solid #d4d0f0;",
+      "h3": "color: #7c6fd6; font-size: 16px; font-weight: 500; margin: 22px 0 12px; text-align: center; opacity: 0.85;",
+      "h1": "color: #5a52a5; font-size: 21px; font-weight: 500; margin: 30px 0 18px; text-align: center; padding-bottom: 12px; border-bottom: 1px solid #d4d0f0;",
+      "h4": "font-size: 15px; font-weight: bold; margin-bottom: 8px; color: #57606a; margin-top: 20px;"
+    },
+    "text": {
+      "paragraph": "margin-bottom: 17px; text-align: justify; opacity: 0.9;",
+      "code_inline": "background-color: #ebe8fc; color: #5a52a5; padding: 3px 8px; border-radius: 4px; font-size: 88%;",
+      "strong": "color: #5a52a5; font-weight: 500;",
+      "italic": "font-style: italic;",
+      "strikethrough": "text-decoration: line-through; opacity: 0.7;",
+      "highlight": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;",
+      "mark": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;"
+    },
+    "blocks": {
+      "code_block": "background-color: #ebe8fc; color: #4a4675; padding: 18px; border-radius: 16px; margin: 20px 0; border: 1px solid #d4d0f0;",
+      "quote_tip": "background-color: #f5f3ff; border: 1px solid #d4d0f0; color: #5a52a5; padding: 16px 22px; margin: 20px 0; border-radius: 12px; font-style: italic; text-align: center;",
+      "quote_warning": "background-color: #fdf4ff; border: 1px solid #e9d5ff; color: #7c3aed; padding: 16px 22px; margin: 20px 0; border-radius: 12px; text-align: center;",
+      "hr": "border: 0; height: 1px; background: linear-gradient(90deg, transparent, #d4d0f0, transparent); margin: 40px 0;",
+      "quote_note": "background-color: #e8f4fd; border-left: 4px solid #0969da; color: #0c3d6a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_info": "background-color: #def7ff; border-left: 4px solid #58a6ff; color: #0c447a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_default": "background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "details": "background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 12px; margin-bottom: 15px;",
+      "summary": "font-weight: bold; cursor: pointer; color: #0969da; margin-bottom: 8px;"
+    },
+    "media": {
+      "image_placeholder": "background-color: #ebe8fc; border: 1px solid #d4d0f0; color: #7c6fd6; padding: 30px; text-align: center; margin: 24px 0; border-radius: 16px; font-style: italic;",
+      "image": "max-width: 100%; height: auto; display: block; margin: 15px 0; border-radius: 4px;",
+      "video": "width: 100%; border-radius: 6px; margin: 15px 0;"
+    },
+    "footer": {
+      "style": "margin-top: 50px; padding: 24px; background: linear-gradient(135deg, #667eea10, #764ba210); border-radius: 16px; text-align: center;",
+      "text": "color: #7c6fd6; font-size: 11px; letter-spacing: 1px;"
+    },
+    "lists": {
+      "ul": "margin-bottom: 15px; padding-left: 20px;",
+      "ol": "margin-bottom: 15px; padding-left: 20px;",
+      "li": "margin-bottom: 6px;",
+      "task_checked": "color: #22a627; text-decoration: line-through;",
+      "task_unchecked": "color: #24292e;"
+    },
+    "math": {
+      "inline": "background-color: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-family: 'Times New Roman', serif; font-style: italic;",
+      "block": "background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;"
+    }
+  }
+}

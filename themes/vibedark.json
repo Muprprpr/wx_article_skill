@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "Vibe Coding Dark",
+    "version": "2.0.0",
+    "description": "深色终端风格主题，适合夜间阅读"
+  },
+  "base": {
+    "container": "background-color: #0d1117; color: #c9d1d9; font-family: Consolas, Monaco, 'Courier New', monospace; font-size: 15px; line-height: 1.75; padding: 10px; letter-spacing: 0.5px; text-align: left;",
+    "link": "color: #58a6ff; text-decoration: none; border-bottom: 1px solid #58a6ff;"
+  },
+  "components": {
+    "header_window": {
+      "style": "background-color: #161b22; border: 1px solid #30363d; border-radius: 6px 6px 0 0; padding: 10px 15px; border-bottom: 1px solid #30363d; display: flex; align-items: center; margin-bottom: 20px;",
+      "dots": [
+        "width:12px; height:12px; background:#ff5f56; border-radius:50%; margin-right:8px; border:1px solid #e0443e;",
+        "width:12px; height:12px; background:#ffbd2e; border-radius:50%; margin-right:8px; border:1px solid #dea123;",
+        "width:12px; height:12px; background:#27c93f; border-radius:50%; margin-right:15px; border:1px solid #1aab29;"
+      ],
+      "title_style": "color: #8b949e; font-size: 12px; font-weight: bold;"
+    },
+    "headings": {
+      "h2": "background-color: #161b22; border-left: 5px solid #58a6ff; padding: 10px 15px; margin-bottom: 20px; font-size: 17px; font-weight: bold; color: #c9d1d9;",
+      "h3": "font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #58a6ff; margin-top: 30px;",
+      "h1": "background-color: #161b22; border-left: 5px solid #58a6ff; padding: 10px 15px; margin-bottom: 20px; font-size: 17px; font-weight: bold; color: #c9d1d9;",
+      "h4": "font-size: 15px; font-weight: bold; margin-bottom: 8px; color: #57606a; margin-top: 20px;"
+    },
+    "text": {
+      "paragraph": "margin-bottom: 15px;",
+      "code_inline": "background-color: #161b22; padding: 2px 4px; border-radius: 4px; color: #ff7b72; font-family: monospace; font-size: 90%;",
+      "strong": "color: #58a6ff; font-weight: bold;",
+      "italic": "font-style: italic;",
+      "strikethrough": "text-decoration: line-through; opacity: 0.7;",
+      "highlight": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;",
+      "mark": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;"
+    },
+    "blocks": {
+      "code_block": "background-color: #161b22; padding: 15px; border-radius: 6px; border: 1px solid #30363d; color: #c9d1d9; margin-bottom: 15px; overflow-x: auto; font-size: 13px;",
+      "quote_tip": "background-color: #1c2b1c; border: 1px solid #238636; color: #3fb950; padding: 12px; border-radius: 6px; font-size: 14px; margin-bottom: 15px;",
+      "quote_warning": "background-color: #2c1b1b; border: 1px solid #f85149; color: #ff7b72; padding: 12px; border-radius: 6px; font-size: 14px; margin-bottom: 15px;",
+      "hr": "border: 0; border-top: 1px dashed #30363d; margin: 30px 0;",
+      "quote_note": "background-color: #e8f4fd; border-left: 4px solid #0969da; color: #0c3d6a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_info": "background-color: #def7ff; border-left: 4px solid #58a6ff; color: #0c447a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_default": "background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "details": "background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 12px; margin-bottom: 15px;",
+      "summary": "font-weight: bold; cursor: pointer; color: #0969da; margin-bottom: 8px;"
+    },
+    "media": {
+      "image_placeholder": "background-color: #161b22; border: 1px dashed #30363d; color: #8b949e; padding: 20px; text-align: center; margin-bottom: 15px; font-size: 13px;",
+      "image": "max-width: 100%; height: auto; display: block; margin: 15px 0; border-radius: 4px;",
+      "video": "width: 100%; border-radius: 6px; margin: 15px 0;"
+    },
+    "footer": {
+      "style": "margin-bottom: 30px; text-align: center;",
+      "text": "margin-bottom: 15px; font-weight: bold; color: #58a6ff;"
+    },
+    "lists": {
+      "ul": "margin-bottom: 15px; padding-left: 20px;",
+      "ol": "margin-bottom: 15px; padding-left: 20px;",
+      "li": "margin-bottom: 6px;",
+      "task_checked": "color: #22a627; text-decoration: line-through;",
+      "task_unchecked": "color: #24292e;"
+    },
+    "math": {
+      "inline": "background-color: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-family: 'Times New Roman', serif; font-style: italic;",
+      "block": "background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;"
+    }
+  }
+}

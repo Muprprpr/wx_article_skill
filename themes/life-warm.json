@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "Life Warm",
+    "version": "2.0.0",
+    "description": "温暖生活风格，米色暖橙配色，适合生活分享、美食攻略"
+  },
+  "base": {
+    "container": "background-color: #fffaf0; color: #4a4a4a; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.8; padding: 20px;",
+    "link": "color: #ff8c42; text-decoration: none; border-bottom: 1px dashed #ff8c42;"
+  },
+  "components": {
+    "header_window": {
+      "style": "background-color: #fff; border: 2px solid #ff8c42; border-radius: 16px 16px 0 0; padding: 16px 24px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(255, 140, 66, 0.15);",
+      "dots": [],
+      "title_style": "color: #ff8c42; font-size: 14px; font-weight: bold;"
+    },
+    "headings": {
+      "h2": "background-color: #ff8c42; color: #ffffff; padding: 12px 20px; font-size: 20px; font-weight: bold; margin: 24px 0 16px; border-radius: 12px; box-shadow: 0 4px 12px rgba(255, 140, 66, 0.25);",
+      "h3": "color: #ff8c42; font-size: 17px; font-weight: bold; margin: 20px 0 12px; padding-left: 16px; border-left: 5px solid #ffd4a3;",
+      "h1": "background-color: #ff8c42; color: #ffffff; padding: 12px 20px; font-size: 20px; font-weight: bold; margin: 24px 0 16px; border-radius: 12px; box-shadow: 0 4px 12px rgba(255, 140, 66, 0.25);",
+      "h4": "font-size: 15px; font-weight: bold; margin-bottom: 8px; color: #57606a; margin-top: 20px;"
+    },
+    "text": {
+      "paragraph": "margin-bottom: 16px;",
+      "code_inline": "background-color: #ffd4a3; color: #d35400; padding: 3px 8px; border-radius: 6px; font-size: 90%;",
+      "strong": "color: #ff8c42; font-weight: bold;",
+      "italic": "font-style: italic;",
+      "strikethrough": "text-decoration: line-through; opacity: 0.7;",
+      "highlight": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;",
+      "mark": "background-color: #fff8c5; padding: 1px 4px; border-radius: 2px;"
+    },
+    "blocks": {
+      "code_block": "background-color: #fff5eb; color: #4a4a4a; padding: 16px; border-radius: 12px; margin: 16px 0; border: 2px dashed #ffcc80;",
+      "quote_tip": "background-color: #fff9e6; border: 2px solid #ffcc80; color: #d35400; padding: 14px 18px; margin: 16px 0; border-radius: 12px;",
+      "quote_warning": "background-color: #ffe8e8; border: 2px solid #ffb3b3; color: #c0392b; padding: 14px 18px; margin: 16px 0; border-radius: 12px;",
+      "hr": "border: 0; height: 2px; background: linear-gradient(90deg, transparent, #ffcc80, transparent); margin: 32px 0;",
+      "quote_note": "background-color: #e8f4fd; border-left: 4px solid #0969da; color: #0c3d6a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_info": "background-color: #def7ff; border-left: 4px solid #58a6ff; color: #0c447a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "quote_default": "background-color: #f6f8fa; border-left: 4px solid #57606a; color: #57606a; padding: 12px; margin-bottom: 15px; border-radius: 0 6px 6px 0;",
+      "details": "background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 12px; margin-bottom: 15px;",
+      "summary": "font-weight: bold; cursor: pointer; color: #0969da; margin-bottom: 8px;"
+    },
+    "media": {
+      "image_placeholder": "background-color: #fff9e6; border: 3px dashed #ffcc80; color: #ff8c42; padding: 24px; text-align: center; margin: 20px 0; border-radius: 16px; font-size: 14px;",
+      "image": "max-width: 100%; height: auto; display: block; margin: 15px 0; border-radius: 4px;",
+      "video": "width: 100%; border-radius: 6px; margin: 15px 0;"
+    },
+    "footer": {
+      "style": "margin-top: 40px; padding: 20px; background-color: #fff; border-radius: 16px; text-align: center; box-shadow: 0 4px 12px rgba(255, 140, 66, 0.1);",
+      "text": "color: #ff8c42; font-size: 13px; font-weight: bold;"
+    },
+    "lists": {
+      "ul": "margin-bottom: 15px; padding-left: 20px;",
+      "ol": "margin-bottom: 15px; padding-left: 20px;",
+      "li": "margin-bottom: 6px;",
+      "task_checked": "color: #22a627; text-decoration: line-through;",
+      "task_unchecked": "color: #24292e;"
+    },
+    "math": {
+      "inline": "background-color: #f6f8fa; padding: 2px 6px; border-radius: 4px; font-family: 'Times New Roman', serif; font-style: italic;",
+      "block": "background-color: #f6f8fa; padding: 15px; border-radius: 6px; text-align: center; margin: 15px 0; overflow-x: auto; font-family: 'Times New Roman', serif;"
+    }
+  }
+}
