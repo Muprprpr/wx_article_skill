@@ -1,0 +1,39 @@
+{
+  "name": "wx_article_skill",
+  "id": "wx_article_skill",
+  "owner": {
+    "name": "Muprprpr"
+  },
+  "metadata": {
+    "description": "将 Markdown 转换为微信公众号兼容的 HTML，支持 26+ 主题和图片自动提取",
+    "version": "2.0.1",
+    "repository": "https://github.com/Muprprpr/wx_article_skill"
+  },
+  "plugins": [
+    {
+      "name": "wx_article_skill",
+      "source": "skill.md",
+      "description": "将 Markdown 转换为微信公众号兼容的 HTML，支持 26+ 主题和图片自动提取",
+      "version": "2.0.1",
+      "author": {
+        "name": "Muprprpr"
+      },
+      "keywords": [
+        "weixin",
+        "wechat",
+        "weixin-gongzhonghao",
+        "markdown",
+        "html",
+        "converter",
+        "themes",
+        "公众号",
+        "微信",
+        "文档转换",
+        "content-creation",
+        "chinese"
+      ],
+      "category": "productivity",
+      "strict": false
+    }
+  ]
+}
